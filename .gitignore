@@ -1,0 +1,3 @@
+# Project exclude paths
+/spring-boot-cryptoevil-autoconfigure/target/
+/test-app-module/target/
