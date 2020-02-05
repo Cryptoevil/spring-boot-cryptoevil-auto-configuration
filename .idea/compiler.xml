@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-cryptoevil-starter" />
         <module name="spring-boot-cryptoevil-autoconfigure" />
-        <module name="test-app-module" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test-app-module" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
